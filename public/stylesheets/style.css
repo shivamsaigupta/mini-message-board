@@ -1,0 +1,15 @@
+body {
+  background-color: #e4e4e4;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.card-subtitle {
+  margin: 1rem 1rem;
+}
+
+.card-body {
+  margin-left: 1.2rem;
+}

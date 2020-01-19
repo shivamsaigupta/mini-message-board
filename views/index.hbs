@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+{{#each messages}}
+<div class="card">
+    <h6 class="card-subtitle mb-2 text-muted">{{this.user}}</h6>
+    <div class="card-body">
+        {{this.text}}
+    </div>
+</div>
+{{/each}}
